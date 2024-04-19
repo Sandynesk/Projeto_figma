@@ -134,12 +134,12 @@
 /* Espaçamento entre os botões */
 
 #btnCadastro {
-  margin-right: 20px; /* Ajuste o valor conforme necessário */
+  margin-right: 10px;           /* Ajuste o valor conforme necessário */
   color: rgb(13, 48, 13) !important; /* Mantém a cor do texto como verde */
 }
 
 #btnLogin {
-  margin-right: 20px; /* Ajuste o valor conforme necessário */
+  margin-right: 10px; /* Ajuste o valor conforme necessário */
   color: rgb(13, 48, 13) !important; /* Mantém a cor do texto como verde */
 }
 
@@ -197,4 +197,24 @@
 
 .bg-success {
   height: 500px; /* Altere o valor conforme necessário */
+}
+
+.bg-success h5 {
+  text-align:justify; 
+  margin-right: 20px; /* Adiciona uma margem direita de 20 pixels */
+  padding: 15%;
+  margin-left: 40%;
+  margin-top: -9%;
+}
+
+/*Barra*/
+.Fofo {
+  width: 500px; /* Defina a largura desejada */
+  height: auto; /* Mantém a proporção original da imagem */
+  margin-top: -42%;
+  margin-right: 30%;
+}
+
+#Title{
+  color: black;
 }

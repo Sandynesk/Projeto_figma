@@ -10,7 +10,15 @@ import imgCoelho from './coelho.webp';
 
 function Cards() {
   return (
+   
+    <div>
+    <h1 id='Title'>Atualmente esses são os animais disponiveis na nossa loja!</h1>
+    <div/>
+      
+    
+
     <div className="cards-container">
+      
       {/* Primeiro card */}
       <div className="card" style={{ width: '18rem' }}>
         <img src={furao} className="card-img-top" alt="furãozinho" /> {/* Use a variável furao como o src */}
@@ -20,7 +28,7 @@ function Cards() {
           <a href="#" className="btn btn-custom">Comprar</a>
         </div>
       </div>
-
+  
       {/* Segundo card */}
       <div className="card" style={{ width: '18rem' }}>
         <img src={Bico} className="card-img-top" alt="bicozinho" /> {/* Use a variável furao como o src */}
@@ -30,7 +38,7 @@ function Cards() {
           <a href="#" className="btn btn-custom">Comprar</a>
         </div>
       </div>
-
+  
       {/* Terceiro card */}
       <div className="card" style={{ width: '18rem' }}>
         <img src={Bixo} className="card-img-top" alt="bixozinho" /> {/* Use a variável furao como o src */}
@@ -40,7 +48,7 @@ function Cards() {
           <a href="#" className="btn btn-custom">Comprar</a>
         </div>
       </div>
-
+  
       {/* Quarto card */}
       <div className="card" style={{ width: '18rem' }}>
         <img src={imgGato} className="card-img-top" alt="gatinho" /> {/* Use uma variável para o src */}
@@ -50,7 +58,7 @@ function Cards() {
           <a href="#" className="btn btn-custom">Comprar</a>
         </div>
       </div>
-
+  
       {/* Quinto card */}
       <div className="card" style={{ width: '18rem' }}>
         <img src={imgDog} className="card-img-top" alt="unicorniozinho" /> {/* Use uma variável para o src */}
@@ -60,7 +68,7 @@ function Cards() {
           <a href="#" className="btn btn-custom">Comprar</a>
         </div>
       </div>
-
+  
       {/* Sexto card */}
       <div className="card" style={{ width: '18rem' }}>
         <img src={imgCoelho} className="card-img-top" alt="dragaozinho" /> {/* Use uma variável para o src */}
@@ -71,6 +79,8 @@ function Cards() {
         </div>
       </div>
     </div>
+  </div>
+  
   );
 }
 
