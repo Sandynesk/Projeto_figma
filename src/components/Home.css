@@ -1,0 +1,79 @@
+.cards-container {
+  display: flex;
+  flex-direction: column; /* Define a direção como coluna */
+  align-items: center; /* Centraliza os itens verticalmente */
+  margin-RIGHT: 40%;
+  margin-top: 5%;
+  color: green;
+}
+
+.card {
+  margin-bottom: 20px; /* Adiciona margem entre os cards */
+  color: white;
+  background-color: rgb(13, 48, 13);
+}
+
+.btn-custom {
+  background-color: white; /* Define o fundo como branco */
+  color: rgb(13, 48, 13);; /* Define a cor do texto como verde escuro */
+  border-color: rgb(13, 48, 13);; /* Define a cor da borda como verde escuro */
+}
+
+/* Estilos personalizados para o texto do botão quando hover */
+.btn-custom:hover {
+  background-color: #247524; /* Altera o fundo para verde escuro quando hover */
+  color: white; /* Altera a cor do texto para branco quando hover */
+}
+
+/*nav*/
+
+.navbar {
+  background-color: rgb(13, 48, 13); /* Define a cor de fundo da barra de navegação como verde */
+}
+
+/*Navbar texto branco*/
+.navbar-brand,
+.nav-link,
+.dropdown-item {
+    color: white !important;
+}
+
+/* Footer */
+
+.footer {
+  background-color: rgb(13, 48, 13);
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer h5 {
+  color: #fff;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #fff;
+}
+
+.footer form {
+  margin-top: 20px;
+}
+
+.footer form input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.footer form button {
+  width: 100%;
+}
