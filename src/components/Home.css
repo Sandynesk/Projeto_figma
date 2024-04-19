@@ -38,6 +38,68 @@
     color: white !important;
 }
 
+
+
+
+/* Estilos para o botão de Cadastro */
+#btnCadastro {
+  display: inline-block; /* Exibe o botão como um bloco inline */
+  padding: 8px 16px; /* Define o preenchimento interno do botão */
+  background-color: white; /* Define a cor de fundo do botão como branca */
+  border: 1px solid rgb(13, 48, 13); /* Adiciona uma borda sólida verde ao redor do botão */
+  border-radius: 5px; /* Arredonda as bordas do botão */
+  text-decoration: none; /* Remove a decoração de texto padrão */
+  color: rgb(13, 48, 13) !important; /* Define a cor do texto do botão como verde */
+}
+
+/* Efeito de hover para o botão de Cadastro */
+#btnCadastro:hover {
+  background-color: rgb(142, 145, 142); /* Altera a cor de fundo ao passar o mouse sobre o botão */
+  color: white; /* Altera a cor do texto para branco */
+}
+
+/* Estilos de foco para o botão de Cadastro */
+#btnCadastro:focus {
+  outline: none; /* Remove o contorno ao focar no botão */
+  box-shadow: 0 0 0 2px rgba(13, 48, 13, 0.5); /* Adiciona uma sombra ao redor do botão */
+}
+
+/* Estilos para o botão de Login */
+#btnLogin {
+  display: inline-block; /* Exibe o botão como um bloco inline */
+  padding: 8px 16px; /* Define o preenchimento interno do botão */
+  background-color: white; /* Define a cor de fundo do botão como branca */
+  border: 1px solid rgb(13, 48, 13); /* Adiciona uma borda sólida verde ao redor do botão */
+  border-radius: 5px; /* Arredonda as bordas do botão */
+  text-decoration: none; /* Remove a decoração de texto padrão */
+  color: rgb(13, 48, 13) !important; /* Define a cor do texto do botão como verde */
+}
+
+/* Efeito de hover para o botão de Login */
+#btnLogin:hover {
+  background-color: rgb(142, 145, 142); /* Altera a cor de fundo ao passar o mouse sobre o botão */
+  color: white; /* Altera a cor do texto para branco */
+}
+
+/* Estilos de foco para o botão de Login */
+#btnLogin:focus {
+  outline: none; /* Remove o contorno ao focar no botão */
+  box-shadow: 0 0 0 2px rgba(13, 48, 13, 0.5); /* Adiciona uma sombra ao redor do botão */
+}
+
+/* Espaçamento entre os botões */
+#btnCadastro,
+#btnLogin {
+  margin-right: 15px; /* Adiciona espaço à direita dos botões */
+  color: rgb(13, 48, 13) !important; /* Mantém a cor do texto como verde */
+}
+
+#btnCadastro {
+  margin-left: 0px; /* Ajusta a margem esquerda do botão de Cadastro */
+}
+
+
+
 /* Footer */
 
 .footer {
@@ -78,7 +140,7 @@
   width: 100%;
 }
 
-/* No seu arquivo CSS (por exemplo, App.css) */
+/* Banner */
 
 .banner img {
   max-width: 100%; /* Define o tamanho máximo como 100% da largura do contêiner */

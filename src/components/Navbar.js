@@ -37,6 +37,21 @@ function Navbar(){
                     </ul>
                 </div>
             </div>
+
+            <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+    <ul className="navbar-nav">
+        {/* Seus outros itens de navegação */}
+        <li className="nav-item">
+            <a id="btnCadastro" className="nav-link" href="#" style={{ color: 'rgb(13, 48, 13)' }}>Cadastro</a>
+        </li>
+        <li className="nav-item">
+            <a id="btnLogin" className="nav-link" href="#" style={{ color: 'rgb(13, 48, 13)' }}>Login</a>
+        </li>
+    </ul>
+</div>
+
+
+
         </nav>
     )
 }
