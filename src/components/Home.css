@@ -1,11 +1,18 @@
 .cards-container {
   display: flex;
-  flex-direction: column; /* Define a direção como coluna */
-  align-items: center; /* Centraliza os itens verticalmente */
-  margin-RIGHT: 40%;
+  flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
+  justify-content: center; /* Centraliza os cards horizontalmente */
+  gap: 5%; /* Define o espaçamento entre os cards */
   margin-top: 5%;
   color: green;
+  margin-right: 20%;
+  margin-left: 20%;
 }
+
+.card {
+  margin-bottom: 20px; /* Adiciona espaço entre as linhas de cards */
+}
+
 
 .card {
   margin-bottom: 20px; /* Adiciona margem entre os cards */
@@ -27,14 +34,45 @@
 
 /*nav*/
 
+.logo {
+  display: flex;
+}
+
+.logo img {
+  max-width: 10%; /* Define a largura máxima da imagem da logo */
+  height: 10%; /* Permite que a altura seja ajustada automaticamente mantendo a proporção */
+}
+
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Defina um valor alto para a propriedade z-index */
   background-color: rgb(13, 48, 13); /* Define a cor de fundo da barra de navegação como verde */
 }
 
+
+
+
+.logo {
+  position: absolute; /* Define a posição absoluta para a logo */
+  top: -3%; /* Alinha a logo ao topo */
+  margin-left: -10%; /* Alinha a logo à esquerda */
+  
+}
+
+.logo img {
+  width: 1500px; /* Defina a largura desejada para a imagem da logo */
+  height: auto; /* Permite que a altura seja ajustada automaticamente mantendo a proporção */
+}
+
+
+
+
 /*Navbar texto branco*/
 .navbar-brand,
-.nav-link,
-.dropdown-item {
+.nav-link {
     color: white !important;
 }
 
