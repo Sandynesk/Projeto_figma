@@ -88,18 +88,21 @@
   border-radius: 5px; /* Arredonda as bordas do botão */
   text-decoration: none; /* Remove a decoração de texto padrão */
   color: rgb(13, 48, 13) !important; /* Define a cor do texto do botão como verde */
+  margin-top: 8%;
 }
 
 /* Efeito de hover para o botão de Cadastro */
 #btnCadastro:hover {
   background-color: rgb(142, 145, 142); /* Altera a cor de fundo ao passar o mouse sobre o botão */
   color: white; /* Altera a cor do texto para branco */
+  margin-top: 8%;
 }
 
 /* Estilos de foco para o botão de Cadastro */
 #btnCadastro:focus {
   outline: none; /* Remove o contorno ao focar no botão */
   box-shadow: 0 0 0 2px rgba(13, 48, 13, 0.5); /* Adiciona uma sombra ao redor do botão */
+  margin-top: 8%;
 }
 
 /* Estilos para o botão de Login */
@@ -111,29 +114,33 @@
   border-radius: 5px; /* Arredonda as bordas do botão */
   text-decoration: none; /* Remove a decoração de texto padrão */
   color: rgb(13, 48, 13) !important; /* Define a cor do texto do botão como verde */
+  margin-top: 10%;
 }
 
 /* Efeito de hover para o botão de Login */
 #btnLogin:hover {
   background-color: rgb(142, 145, 142); /* Altera a cor de fundo ao passar o mouse sobre o botão */
   color: white; /* Altera a cor do texto para branco */
+  margin-top: 10%;
 }
 
 /* Estilos de foco para o botão de Login */
 #btnLogin:focus {
   outline: none; /* Remove o contorno ao focar no botão */
   box-shadow: 0 0 0 2px rgba(13, 48, 13, 0.5); /* Adiciona uma sombra ao redor do botão */
+  margin-top: 10%;
 }
 
 /* Espaçamento entre os botões */
-#btnCadastro,
-#btnLogin {
-  margin-right: 15px; /* Adiciona espaço à direita dos botões */
+
+#btnCadastro {
+  margin-right: 20px; /* Ajuste o valor conforme necessário */
   color: rgb(13, 48, 13) !important; /* Mantém a cor do texto como verde */
 }
 
-#btnCadastro {
-  margin-left: 0px; /* Ajusta a margem esquerda do botão de Cadastro */
+#btnLogin {
+  margin-right: 20px; /* Ajuste o valor conforme necessário */
+  color: rgb(13, 48, 13) !important; /* Mantém a cor do texto como verde */
 }
 
 
@@ -183,4 +190,11 @@
 .banner img {
   max-width: 100%; /* Define o tamanho máximo como 100% da largura do contêiner */
   height: auto; /* Mantém a proporção da imagem */
+}
+
+
+/*Barra*/
+
+.bg-success {
+  height: 500px; /* Altere o valor conforme necessário */
 }

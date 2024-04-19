@@ -17,16 +17,17 @@ function Navbar(){
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Animais</a>
+                            <a className="nav-link active" aria-current="page" href="#"><strong>Animais</strong></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Quem somos ?</a>
+                        <a className="nav-link" href="#"><strong>Quem somos ?</strong></a>
+
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Politica da empresa</a>
+                            <a className="nav-link" href="#"><strong>Politica da empresa</strong></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Abrigo</a>
+                            <a className="nav-link" href="#"><strong>Abrigo</strong></a>
                         </li>
                     </ul>
                 </div>
