@@ -7,7 +7,7 @@ function Navbar(){
             <div className="container-fluid justify-content-center">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <a className="navbar-brand" href="#">Navbar</a>
+                        <a className="navbar-brand" href="#">Bicho Store</a>
                     </li>
                 </ul>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,17 +16,17 @@ function Navbar(){
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            <a className="nav-link active" aria-current="page" href="#">Animais</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Features</a>
+                            <a className="nav-link" href="#">Quem somos ?</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Pricing</a>
+                            <a className="nav-link" href="#">Politica da empresa</a>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown link
+                                Abrigo
                             </a>
                             <ul className="dropdown-menu">
                                 <li><a className="dropdown-item" href="#">Action</a></li>

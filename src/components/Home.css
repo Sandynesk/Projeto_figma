@@ -41,7 +41,7 @@
 /* Footer */
 
 .footer {
-  background-color: rgb(13, 48, 13);
+  background-color: #0d300d;
   color: #fff;
   padding: 40px 0;
 }
@@ -76,4 +76,11 @@
 
 .footer form button {
   width: 100%;
+}
+
+/* No seu arquivo CSS (por exemplo, App.css) */
+
+.banner img {
+  max-width: 100%; /* Define o tamanho máximo como 100% da largura do contêiner */
+  height: auto; /* Mantém a proporção da imagem */
 }
