@@ -224,3 +224,75 @@
 #Title{
   color: black;
 }
+
+.custom-card {
+  border: 2px solid #ccc; /* Aumenta a largura da borda para 2px */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50px;
+  height: 150px;
+  width: 982px !important;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 5px); /* Aqui você ajusta a sombra conforme necessário */
+}
+
+.custom-card-body {
+  padding: 20px;
+}
+
+.custom-card-title {
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  top: 17px;
+  color:#137513;
+}
+
+.custom-card-text {
+  font-size: 16px;
+}
+
+.custom-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura da tela inteira */
+}
+
+.button {
+  width: 300px; /* Largura dos botões */
+  height: 300px;
+  padding: 10px; /* Espaçamento interno dos botões */
+  margin-bottom: 10px; /* Espaçamento entre os botões */
+  background-color: #5900ff; /* Cor de fundo dos botões */
+  color: white; /* Cor do texto dos botões */
+  border: none; /* Remove a borda dos botões */
+  cursor: pointer; /* Altera o cursor quando passa por cima dos botões */
+  margin: 0 10px;
+  margin-top: 5%;
+  
+}
+
+.button:hover {
+  background-color: #1a0346; /* Cor de fundo quando hover */
+}
