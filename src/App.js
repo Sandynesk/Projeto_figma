@@ -7,8 +7,7 @@ import Cards from './components/Cards';
 import Footer from './components/Footer';
 import Banner from './components/Banner';
 import Logo from './components/Logo';
-import Barra from './components/Barra';
-import Barra2 from './components/Barra2'
+import Barra from './components/Barra'
 import Blocao from './components/Blocao';
 
 function App() {
@@ -17,10 +16,9 @@ function App() {
      <Navbar/>
      <Logo/>
      <Banner/>
-     <Barra2/>
+     <Barra/>
      <Cards/>
      <Blocao />
-     <Barra/>
      <Footer/>
     </div>
   );
