@@ -1,5 +1,6 @@
 import React from 'react';
-import BannerImage from './Banner.png'; // Caminho relativo correto
+import BannerImage from '../Fotos/Banner.png'; // Caminho relativo correto
+import './CSS/Banner.css';
 
 const Banner = () => {
   return (

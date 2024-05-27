@@ -1,0 +1,39 @@
+/* Footer */
+
+.footer {
+    background-color: #0d300d;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .footer h5 {
+    color: #fff;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer ul li a {
+    color: #fff;
+  }
+  
+  .footer form {
+    margin-top: 20px;
+  }
+  
+  .footer form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .footer form button {
+    width: 100%;
+  }

@@ -1,5 +1,6 @@
 import React from 'react';
-import imgFofo from './Fofo.png'
+import imgFofo from '../Fotos/Fofo.png'
+import './CSS/Barra.css';
 
 const Barra = () => {
   return (

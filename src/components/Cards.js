@@ -1,12 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import furao from './furao.jpeg'; // Corrija o caminho de importação para o diretório correto onde a imagem está localizada
-import './Home.css';
-import Bico from './Bico.png';
-import Bixo from './Bixo.png';
-import imgGato from './Gato.jpg';
-import imgDog from './Cachorro.webp';
-import imgCoelho from './coelho.webp';
+import furao from '../Fotos/furao.jpeg'; // Corrija o caminho de importação para o diretório correto onde a imagem está localizada
+import '../components/CSS/Cards.css';
+import Bico from '../Fotos/Bico.png';
+import Bixo from '../Fotos/Bixo.png';
+import imgGato from '../Fotos/Gato.jpg';
+import imgDog from '../Fotos/Cachorro.webp';
+import imgCoelho from '../Fotos/coelho.webp';
 
 function Cards() {
   return (

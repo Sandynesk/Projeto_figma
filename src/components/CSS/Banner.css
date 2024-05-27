@@ -1,0 +1,5 @@
+.banner img {
+    max-width: 100%; /* Define o tamanho máximo como 100% da largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  

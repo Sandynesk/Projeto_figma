@@ -1,52 +1,42 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
+import './CSS/Navbar.css';
+import imgLogo from '../Fotos/BichoStore.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 function Navbar(){
     return(
-        <nav className="navbar navbar-expand-lg bg-custom mx-auto">
-            
-            <div className="container-fluid justify-content-center">
-                <ul className="navbar-nav mr-auto">
-                    <li className="nav-item">
-                        
-                    </li>
-                </ul>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#"><strong>Animais</strong></a>
-                        </li>
-                        <li className="nav-item">
-                        <a className="nav-link" href="#"><strong>Quem somos ?</strong></a>
-
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#"><strong>Politica da empresa</strong></a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#"><strong>Abrigo</strong></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-    <ul className="navbar-nav">
-    <li className="nav-item" align="right">
-        <a id="btnCadastro" className="nav-link" href="#" style={{ color: 'rgb(13, 48, 13)' }}>Cadastro</a>
-    </li>
-    <li className="nav-item" align="right">
-        <a id="btnLogin" className="nav-link" href="#" style={{ color: 'rgb(13, 48, 13)' }}>Login</a>
-    </li>
+        <nav className="navbar navbar-expand-lg bg-custom">
+        <div className="container-fluid">
+          <img src={imgLogo} className="Logo" alt="Logo" /> 
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul className="navbar-nav mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link active" aria-current="page" href="#">Tela incial</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">Saiba mais!</a>
+              </li>
+              <li className="nav-item dropdown">
+    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Serviços
+    </a>
+    <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a className="dropdown-item" href="#">Serviço 1</a></li>
+        <li><a className="dropdown-item" href="#">Serviço 2</a></li>
+        <li><hr className="dropdown-divider" /></li>
+        <li><a className="dropdown-item" href="#">Outro Serviço</a></li>
     </ul>
-</div>
-
-
-
-        </nav>
+</li>
+            </ul>
+            <a className="btn btn-custom" href="#" role="button" style={{ fontWeight: 'bold' }}>Saiba seus direitos!</a>
+          </div>
+        </div>
+      </nav>
     )
 }
 

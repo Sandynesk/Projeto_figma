@@ -1,8 +1,8 @@
 import React from 'react';
-import './Home.css'; // Importe o arquivo CSS para estilizar o botão
-import gatito from './gatito.png';
-import gatenho from './gatenho.png';
-import cachorrinho from './cachorrinho.png';
+import './CSS/Blocao.css';
+import gatito from '../Fotos/gatito.png';
+import gatenho from '../Fotos/gatenho.png';
+import cachorrinho from '../Fotos/cachorrinho.png';
 
 function Blocao(props) {
   return (
