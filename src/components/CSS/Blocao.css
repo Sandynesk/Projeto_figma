@@ -1,0 +1,40 @@
+/* Estilize os contêineres das imagens */
+.button-group {
+    display: flex; /* Use flexbox para alinhar os itens lado a lado */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 75px;
+    gap: 200px;
+    margin-top: 10%;
+    margin-bottom: 12%;
+  }
+  
+  /* Estilize cada imagem e texto */
+  .gatito,
+  .coisa-fofa,
+  .Algum {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    width: 100px; /* Defina a largura do quadrado */
+    height: 100px; /* Defina a altura do quadrado */
+    display: flex; /* Use flexbox para alinhar o texto verticalmente */
+    align-items: center; /* Centraliza o texto horizontalmente */
+    color: white;
+  }
+  
+  /* Estilize as imagens */
+  .gatito img,
+  .coisa-fofa img,
+  .Algum img {
+    width: 250px; /* As imagens ocupam 100% da largura do contêiner */
+    height: 250px; /* Mantém a proporção da imagem */
+    object-fit: cover;
+    border-radius: 10%;
+    border: 5px solid rgb(7, 44, 20);
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.366);
+  }
+
+h1{
+    position: relative;
+    right: 190px !important;
+}

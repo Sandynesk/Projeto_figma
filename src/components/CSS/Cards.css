@@ -1,3 +1,18 @@
+.custom-card,
+.custom-card-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 10px;
+  width: 100%;
+}
+
+.custom-card-title{
+  font-size: 50px;
+  
+}
+
 .cards-container {
     display: flex;
     flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha */
@@ -20,7 +35,24 @@
     background-color: rgb(13, 48, 13);
   }
   
-  
+  .card-body, .card-title{
+    display: flex;
+    width: 270px;
+    text-align: start;
+    left: 10px;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+.card-text{
+  position: relative;
+  display: flex;
+  width: 270px;
+  text-align: start;
+  left: 10px;
+  align-items: center;
+}
 
 .btn-custom {
     background-color: white; /* Define o fundo como branco */

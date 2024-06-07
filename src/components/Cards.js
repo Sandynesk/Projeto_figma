@@ -11,7 +11,7 @@ import imgCoelho from '../Fotos/coelho.webp';
 function Cards() {
   return (
     <>
-  <div className="custom-card" style={{ width: '18rem' }}>
+  <div className="custom-card">
   <div className="custom-card-body">
     <h5 className="custom-card-title" id="CustomTiitle">Confira as nossas ofertas atuais !!</h5>
   </div>
